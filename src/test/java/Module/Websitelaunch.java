@@ -27,6 +27,8 @@ public class Websitelaunch {
 		driver.close();
 		System.out.println("assd");
 		System.out.println("assd");
+		System.out.println("assd");
+		System.out.println("assd");
 
 	}
 
