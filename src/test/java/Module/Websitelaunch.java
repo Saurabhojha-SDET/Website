@@ -20,8 +20,8 @@ public class Websitelaunch {
 		driver.manage().window().maximize();
 		System.out.println(driver.getTitle());
 		Thread.sleep(2000);
-		WebElement one = driver.findElement(By.xpath("//body/div[@id='__next']/div[2]/div[1]/div[1]/div[2]/div[1]"));
-		//WebElement one = driver.findElement(By.className("WelcomeBanner_HomeBannerIntroTextCtn__m6bqw"));
+		//WebElement one = driver.findElement(By.xpath("//body/div[@id='__next']/div[2]/div[1]/div[1]/div[2]/div[1]"));
+		WebElement one = driver.findElement(By.className("WelcomeBanner_HomeBannerIntroTextCtn__m6bqw"));
 		System.out.println(one.getText());
 		System.out.println("assd");
 		driver.close();
